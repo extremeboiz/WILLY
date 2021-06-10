@@ -3,8 +3,8 @@ import { StyleSheet, Text, View } from "react-native";
 import { createAppContainer } from "react-navigation";
 import { createBottomTabNavigator } from "react-navigation-tabs";
 
-import TransactionScreen from "./components/BookTransactionScreen";
-import SearchScreen from "./components/SearchScreen";
+import TransactionScreen from "BookTransactionScreen";
+import SearchScreen from "SearchScreen";
 
 export default class App extends React.Component {
   render() {
